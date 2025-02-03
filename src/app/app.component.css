@@ -1,0 +1,33 @@
+/* Estilo global */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3e5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container central da aplicação */
+  .app-container {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Título principal */
+  h1 {
+    color: #303f9f;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

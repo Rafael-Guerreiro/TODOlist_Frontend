@@ -1,0 +1,35 @@
+<!-- Container principal -->
+<div class="app-container">
+    <!-- Título -->
+    <h2>Lista de Tarefas</h2>
+  
+    <!-- Lista de tarefas -->
+    <ul>
+      <li *ngFor="let todo of todos" [ngClass]="{'completed': todo.completed}">
+        <div *ngIf="todo.isEditing">
+          <input [(ngModel)]="todo.task" (blur)="updateTodo(todo)" placeholder="Editar tarefa" />
+        </div>
+        <div *ngIf="!todo.isEditing" (click)="editTodo(todo)">
+          <span>{{ todo.task }}</span>
+        </div>
+  
+        <div>
+          <button class="completed" (click)="toggleCompletion(todo)">
+            {{ todo.completed ? 'Desmarcar' : 'Concluída' }}
+          </button>
+          <button class="delete" (click)="deleteTodo(todo.id)">Remover</button>
+        </div>
+      </li>
+    </ul>
+  
+    <!-- Formulário para adicionar tarefa -->
+    <input [(ngModel)]="newTask" placeholder="Adicionar tarefa" />
+    <button class="add-btn" (click)="addTodo()">Adicionar</button>
+  </div>
+  
+
+
+
+  
+  
+  
