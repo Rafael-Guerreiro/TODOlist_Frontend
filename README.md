@@ -27,7 +27,7 @@ Antes de rodar o projeto, você precisará ter as seguintes ferramentas instalad
 
 1. Clone o repositório do projeto:
     ```bash
-    git clone <https://github.com/Rafael-Guerreiro/TODOlist_Frontend>
+    git clone https://github.com/Rafael-Guerreiro/TODOlist_Frontend
     ```
 
 2. Navegue até a pasta do projeto:
