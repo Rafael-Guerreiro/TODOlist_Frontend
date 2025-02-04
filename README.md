@@ -52,11 +52,10 @@ Antes de rodar o projeto, você precisará ter as seguintes ferramentas instalad
     http://localhost:4200
     ```
 
-## Funcionalidades
+## Funcionalidades/Execução
 
-- Exibir tarefas (todos).
-- Adicionar novas tarefas.
-- Editar tarefas existentes.
-- Marcar tarefas como completas.
-- Deletar tarefas.
-
+- Exibir tarefas (todos): Todas as tarefas cadastradas serão exibidas na página.
+- Adicionar novas tarefas: Digite o nome da tarefa no campo "Adicionar tarefa" e clique em Adicionar.
+- Editar tarefas existentes: Clique no nome da tarefa para editá-la diretamente.
+- Marcar tarefas como completas: Clique no botão "Concluída" para marcar a tarefa como finalizada.
+- Deletar tarefas: Clique no botão "Remover" para excluir a tarefa da lista.
